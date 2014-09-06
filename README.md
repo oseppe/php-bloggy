@@ -10,8 +10,10 @@ Create config.php at the same level as README.md
 
 config.php should return an array with the following content
 
+```
 (
     'app_id' => app_id,
     'app_secret' => app_secret,
     'loginPath' => login url
 );
+```
