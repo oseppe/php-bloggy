@@ -1,0 +1,11 @@
+<?php if ($error): ?>
+<h3>Error Form while updating</h3>
+<?php endif ?>
+<h3>Change <?php echo $name ?></h3>
+
+<form method="post">
+	<input name="name" type="text" placeholder="New name, New life" /><br />
+	<input type="submit" class='btn btn-warning' value="Update" />
+</form>
+
+	

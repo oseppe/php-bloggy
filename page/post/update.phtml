@@ -1,0 +1,11 @@
+<?php if ($error): ?>
+<h3>Error Form while updating</h3>
+<?php endif ?>
+<h3>Edit a Post</h3>
+
+<form method="post">
+	<input name="title" type="text" value='<?php echo $data['post_title'] ?>' style="margin-bottom:15px;" /><br />
+	<textarea name="detail" rows="10" cols="50" style="margin-bottom:15px;"><?php echo $data['post_detail'] ?>
+	</textarea><br />
+	<input type="submit" class='btn btn-warning' value="Update" style="margin-bottom:15px;" />
+</form>
